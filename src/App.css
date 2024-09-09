@@ -1,0 +1,46 @@
+.app {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.search-input-style {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-bar {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 65vh;
+  width: 100vw;
+}
+.spinner {
+  margin: auto;
+  margin-top: 60px;
+}
+.movie-card {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.pagination {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
